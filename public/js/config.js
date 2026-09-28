@@ -19,7 +19,7 @@
     //
     // If your platform/build happens to allow direct cross-origin calls, set
     // API_BASE directly to one of API_MIRRORS below and drop the proxy.
-    var CONFIG = {
+    var CONFIG = {API_BASE: "https://api.service-kp.com",
 
         // Base URL used for every API call. Must end WITHOUT a trailing slash.
         // Replace with your deployed proxy, e.g. "https://kp-proxy.<you>.workers.dev".
